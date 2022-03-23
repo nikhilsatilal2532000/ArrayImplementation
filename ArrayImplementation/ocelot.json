@@ -1,0 +1,16 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Demo/SumOfArray/{str}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7173"
+        }
+      ],
+      "UpstreamPathTemplate": "/SumOfArray/{str}",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}
